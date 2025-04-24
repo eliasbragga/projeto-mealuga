@@ -1,0 +1,13 @@
+/* app.css */
+
+/* Importando a fonte Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #d1ddee 0%, #e4e8f0 100%);
+}
